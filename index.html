@@ -17,10 +17,15 @@
         import { sayHello } from "./say-hello.js";
         import { sayGoodbay } from "./say-goodbay.ts";
         import { v4 } from "uuid";
+        import * as person from "./person.json";
 
         sayHello("Faldi");
         sayGoodbay("Mira");
         console.info(v4());
+        console.info(person);
+        console.info(person.name);
+        console.info(person.web);
+        console.info(person.github);
     </script>
 </body>
 </html>
