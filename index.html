@@ -8,7 +8,11 @@
 <body>
     <h1>Hello Vite!</h1>
     <script type="module">
-        console.info("Belajar Vite Frontend");
+        import { sayHello } from "./say-hello.js";
+        import { sayGoodbay } from "./say-goodbay.ts";
+
+        sayHello("Faldi");
+        sayGoodbay("Mira");
     </script>
 </body>
 </html>
